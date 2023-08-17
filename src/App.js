@@ -1,10 +1,11 @@
 import './App.css'
-import User from './hook/useContext/1'
-
+import Test from './hook/leetcode'
+import UseImperativeHandle from './hook/useImperativeHandle'
 function App() {
   return (
     <div className='App'>
-      <User />
+      <Test />
+      <UseImperativeHandle />
     </div>
   )
 }
