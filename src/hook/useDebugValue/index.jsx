@@ -1,0 +1,1 @@
+// giống console.log nh hiển thị ở Component
