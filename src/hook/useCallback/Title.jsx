@@ -1,10 +1,10 @@
 import React from 'react'
 
 function Title({ handleClick }) {
-  console.log(1)
+  console.log(12345)
   return (
     <div>
-      <button onClick={handleClick}>Click1</button>
+      <button onClick={handleClick}>Click</button>
     </div>
   )
 }
