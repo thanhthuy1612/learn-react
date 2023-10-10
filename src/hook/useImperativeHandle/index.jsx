@@ -13,7 +13,7 @@ const Input = React.forwardRef((props, ref) => {
       setValue(initalString.slice(0, numberInput))
       if (numberInput === initalString.length) return clearInterval(interval)
       numberInput++
-    }, 100)
+    }, 1000)
   }
 
   React.useImperativeHandle(ref, () => {
