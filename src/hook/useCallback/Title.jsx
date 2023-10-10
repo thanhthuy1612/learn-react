@@ -4,7 +4,7 @@ function Title({ handleClick }) {
   console.log(1)
   return (
     <div>
-      <button onClick={handleClick}>Click</button>
+      <button onClick={handleClick}>Click1</button>
     </div>
   )
 }
